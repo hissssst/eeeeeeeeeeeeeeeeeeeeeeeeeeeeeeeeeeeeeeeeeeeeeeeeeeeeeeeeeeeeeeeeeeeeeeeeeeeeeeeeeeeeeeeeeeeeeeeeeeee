@@ -1,5 +1,1 @@
-defmodule E do
-  def e, do: (IO.write("e"); e())
-end
-
-E.e()
+f=(&(IO.puts("e")&& &1.(&1)));f.(f)
